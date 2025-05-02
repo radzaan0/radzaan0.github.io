@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamam Electronics Trade</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Map plugin -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<!-- Default dark theme -->
+<body data-theme="dark">
+    <section class="hero">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="assets/images/tamam-logo.png" alt="Tamam Electronics Trade">
+                </div>
+                <button class="hamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about-us">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#locate">Locate</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="hero-content">
+                <h1>From style to essentials — everything you need, all in one stop.</h1>
+                <button onclick="document.getElementById('bs').scrollIntoView({ behavior: 'smooth' });" class="glow-btn">Explore</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="bestsellers container2">
+        <h2 id = "bs">Best Sellers</h2>
+        <div class="bestsellers-grid">
+            <div class="small-images">
+                <div class="bs" >
+                    <img src="./assets/images/best-seller-1.jpg" alt="Product 1" class="bestseller-img">
+                    <span>Luxury fragrance, budget friendly</span><br>
+                    <p>$12.25</p>
+                </div>
+                <div class="bs" >
+                    <img src="./assets/images/best-seller-2.jpeg" alt="Product 1" class="bestseller-img">
+                    <span>Premium sound, pocket-friendly price</span><br>
+                    <p>$12.25</p>
+                </div>
+                <div class="bs">
+                    <img src="./assets/images/best-seller-3.jpg" alt="Product 1" class="bestseller-img">
+                    <span>Fast heat, smart spend</span><br>
+                    <p>$12.25</p>
+                </div>
+                <div class="bs">
+                    <img src="./assets/images/best-seller-4.jpg" alt="Product 1" class="bestseller-img">
+                    <span>Wear time with elegance.</span><br>
+                    <p>$12.25</p>
+                </div>
+            </div>
+            <div class="bs">
+                <img src="./assets/images/best-seller-4.png" alt="Featured Product" class="large-img">
+                <span>Travel smart, carry style.</span><br>
+                <p>$12.25</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="wegot container2">
+        <h2 id ="products">Products</h2>
+        <div class="cards">
+            <div class="card p1">
+                <h2>Electronics</h2>
+                <h1>Latest gadgets.</h1>
+                <button class="glow-btn">Shop Now</button>
+            </div>
+            <div class="card p2">
+                <h2>Accessories</h2>
+                <h1>Stylish add-ons.</h1>
+                <button class="glow-btn">Shop Now</button>
+            </div>
+            <div class="card p3">
+                <h2>E-Gagets</h2>
+                <h1>Smart solutions.</h1>
+                <button class="glow-btn">Shop Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="features container2">
+        <div class="features-grid">
+            <div>
+                <div class="feature-circle"><img src="./assets/images/open.png"></div>
+                <p>Shop anytime,—we’re always open.</p>
+            </div>
+            <div>
+                <div class="feature-circle"><img src="./assets/images/refund.png"></div>
+                <p>Hassle-free returns within 30 days.</p>
+            </div>
+            <div>
+                <div class="feature-circle"><img src="./assets/images/sale.png"></div>
+                <p>Exclusive discounts during our seasonal sales.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="locate" class="location-section container2">
+        <p>Visit us at </p>
+        <div id="map"></div>
+    </section>
+    <section class="about-section container2">
+        <h2 id ="about-us">About Us</h2>
+        <div class="underline"></div>
+        <p>Welcome to Tamam Electronics Trading, your one-stop destination for everyday essentials and lifestyle gadgets.
+            From premium razors to stylish watches, durable suitcases to powerful torch lights—we've got it all.
+            Explore top-quality ear pods, tablets, juicers, perfumes, and more under one roof.
+            We bring value, variety, and reliability to everything you need.</p>
+    </section>
+
+    <footer>
+        <div class="container2">
+            <p>© 2025 Tamam Electronics Trade. All rights reserved.</p>
+            <p>Contact: info@tamamelectronics.com | Phone: +971-50-369-1659</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="./assets/js/feature.js"></script>
+</body>
+</html>
