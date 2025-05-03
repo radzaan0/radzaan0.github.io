@@ -385,11 +385,10 @@ body[data-theme="light"] .features p {
     align-items: center;
 }
 
-.shop-img {
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
-    object-fit: cover;
+.location-section p {
+    text-align: center;
+    font-weight: 700;
+    color: #2e1065;
 }
 
 #map {
