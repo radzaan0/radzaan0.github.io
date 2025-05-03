@@ -545,7 +545,7 @@ body[data-theme="light"] footer p {
 
     .bestseller-img {
         width: 100%;
-        height: auto;
+        height: 180px;
     }
 
     .large-img {
